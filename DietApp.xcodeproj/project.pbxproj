@@ -1,0 +1,1327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD31A34BA55777C4B620EB0 /* Pods_DietApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50857238B50F96B68A2A8B1B /* Pods_DietApp.framework */; };
+		CE02845720F4C710001569F1 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02845620F4C710001569F1 /* SeparatorView.swift */; };
+		CE02845A20F4C74F001569F1 /* CommunicateWithVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02845820F4C74E001569F1 /* CommunicateWithVC.swift */; };
+		CE02845B20F4C74F001569F1 /* AskQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02845920F4C74F001569F1 /* AskQuestionVC.swift */; };
+		CE02845D20F4C75E001569F1 /* AskQuestionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02845C20F4C75E001569F1 /* AskQuestionsCell.swift */; };
+		CE02845F20F4D1CE001569F1 /* AskQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02845E20F4D1CE001569F1 /* AskQuestionModel.swift */; };
+		CE0E78BE21059DF3009CC2BB /* RecommendedWaterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E78BD21059DF3009CC2BB /* RecommendedWaterVC.swift */; };
+		CE0E78C02105A2E7009CC2BB /* RecommendedWaterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E78BF2105A2E7009CC2BB /* RecommendedWaterCell.swift */; };
+		CEAD8F262109FBC2002A4DD2 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD8F252109FBC2002A4DD2 /* UserNotifications.framework */; };
+		CEAD8F282109FBC2002A4DD2 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD8F272109FBC2002A4DD2 /* UserNotificationsUI.framework */; };
+		CEAD8F2B2109FBC2002A4DD2 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD8F2A2109FBC2002A4DD2 /* NotificationViewController.swift */; };
+		CEAD8F2E2109FBC2002A4DD2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAD8F2C2109FBC2002A4DD2 /* MainInterface.storyboard */; };
+		CEAD8F322109FBC2002A4DD2 /* APNotificationExtention.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CEAD8F242109FBC2002A4DD2 /* APNotificationExtention.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CED0490B21366B1600E6DC99 /* ReminderPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0490A21366B1600E6DC99 /* ReminderPopUpVC.swift */; };
+		CED0490D21366C2500E6DC99 /* ReminderPopUpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0490C21366C2500E6DC99 /* ReminderPopUpCell.swift */; };
+		CED0494B2136BC5700E6DC99 /* DottedLineView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0494A2136BC5700E6DC99 /* DottedLineView.framework */; };
+		CED63E1820F32B150050CFAA /* CaloriesTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED63E1720F32B150050CFAA /* CaloriesTableVC.swift */; };
+		CED63E1A20F32C130050CFAA /* CaloriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED63E1920F32C130050CFAA /* CaloriesCell.swift */; };
+		CED63E1C20F32E060050CFAA /* CaloriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED63E1B20F32E060050CFAA /* CaloriesModel.swift */; };
+		CED63E1E20F353A30050CFAA /* FatResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED63E1D20F353A30050CFAA /* FatResultVC.swift */; };
+		CED7C2D7212AA313009625A3 /* CircleProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB97356212AA1CD00F0967C /* CircleProgressBar.framework */; };
+		CED7C2D8212AA313009625A3 /* CircleProgressBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEB97356212AA1CD00F0967C /* CircleProgressBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CED7C2E0212ABCC2009625A3 /* JF Flat regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CED7C2DF212ABCC2009625A3 /* JF Flat regular.ttf */; };
+		CEDB925520EB434700E7F680 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB925420EB434700E7F680 /* HealthKit.framework */; };
+		CEDB925720EB4D1F00E7F680 /* WaterRecommendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB925620EB4D1F00E7F680 /* WaterRecommendVC.swift */; };
+		CEDB925920EB58E200E7F680 /* EncyclopediaListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB925820EB58E200E7F680 /* EncyclopediaListVC.swift */; };
+		CEDB925B20EB595900E7F680 /* EncyclopediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB925A20EB595900E7F680 /* EncyclopediaCell.swift */; };
+		CEDB925D20EB5C8600E7F680 /* FatCalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB925C20EB5C8600E7F680 /* FatCalculatorVC.swift */; };
+		CEDB925F20EB7ACE00E7F680 /* CaloriesCounterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB925E20EB7ACE00E7F680 /* CaloriesCounterVC.swift */; };
+		CEDB926120EB92A200E7F680 /* EncyclopediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB926020EB92A200E7F680 /* EncyclopediaModel.swift */; };
+		CEDB926C20EBAD1800E7F680 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB926B20EBAD1800E7F680 /* Alamofire.framework */; };
+		CEDB926E20EBAD1800E7F680 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB926D20EBAD1800E7F680 /* AlamofireImage.framework */; };
+		CEDB927020EBAD1800E7F680 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB926F20EBAD1800E7F680 /* AlamofireObjectMapper.framework */; };
+		CEDB927220EBAD1800E7F680 /* DropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB927120EBAD1800E7F680 /* DropDown.framework */; };
+		CEDB927420EBAD1800E7F680 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB927320EBAD1800E7F680 /* IQKeyboardManagerSwift.framework */; };
+		CEDB927620EBAD1800E7F680 /* LGSideMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB927520EBAD1800E7F680 /* LGSideMenuController.framework */; };
+		CEDB927820EBAD1800E7F680 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB927720EBAD1800E7F680 /* ObjectMapper.framework */; };
+		CEDB927A20EBAD1800E7F680 /* SDLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB927920EBAD1800E7F680 /* SDLoader.framework */; };
+		CEDB927C20EBAD1800E7F680 /* TTGSnackbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB927B20EBAD1800E7F680 /* TTGSnackbar.framework */; };
+		CEE47A142101DBE60041C959 /* TipsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE47A132101DBE60041C959 /* TipsDetailVC.swift */; };
+		CEE47A162101E17C0041C959 /* TipsDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE47A152101E17C0041C959 /* TipsDetailCell.swift */; };
+		CEE50F7B20E7801600EF8252 /* UserDataMedel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE50F7A20E7801600EF8252 /* UserDataMedel.swift */; };
+		CEE752A92100853900CA69CE /* CaloriesCounterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE752A82100853900CA69CE /* CaloriesCounterCell.swift */; };
+		CEE87EB520E5FBA700752F12 /* LayoutableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE87EB420E5FBA700752F12 /* LayoutableButton.swift */; };
+		CEE8E5022121640E00F0F9DC /* Localisator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8E5012121640E00F0F9DC /* Localisator.swift */; };
+		CEE8E5082121706D00F0F9DC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE8E50A2121706D00F0F9DC /* Localizable.strings */; };
+		CEF5BBCC20E9F35600368BB3 /* DailyTipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BBCB20E9F35600368BB3 /* DailyTipsVC.swift */; };
+		CEF5BBCE20E9F36E00368BB3 /* DailyTipsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BBCD20E9F36E00368BB3 /* DailyTipsCell.swift */; };
+		CEF5BBD020E9F54200368BB3 /* DailyTipsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BBCF20E9F54200368BB3 /* DailyTipsModel.swift */; };
+		CEF5BBD420EA0A2900368BB3 /* EditAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BBD320EA0A2900368BB3 /* EditAccountVC.swift */; };
+		CEFBD5EE20E4A77300F046A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD5ED20E4A77300F046A2 /* AppDelegate.swift */; };
+		CEFBD5F320E4A77300F046A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFBD5F120E4A77300F046A2 /* Main.storyboard */; };
+		CEFBD5F520E4A77500F046A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFBD5F420E4A77500F046A2 /* Assets.xcassets */; };
+		CEFBD5F820E4A77500F046A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFBD5F620E4A77500F046A2 /* LaunchScreen.storyboard */; };
+		CEFBD60320E4A77500F046A2 /* DietAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD60220E4A77500F046A2 /* DietAppTests.swift */; };
+		CEFBD60E20E4A77500F046A2 /* DietAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD60D20E4A77500F046A2 /* DietAppUITests.swift */; };
+		CEFBD62520E4AC1000F046A2 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD62420E4AC1000F046A2 /* Utility.swift */; };
+		CEFBD62720E4AC2500F046A2 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD62620E4AC2500F046A2 /* Extentions.swift */; };
+		CEFBD62920E4AF3300F046A2 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD62820E4AF3300F046A2 /* UIViewExtensions.swift */; };
+		CEFBD62D20E4AF7D00F046A2 /* DSCameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD62A20E4AF7C00F046A2 /* DSCameraHandler.swift */; };
+		CEFBD62E20E4AF7D00F046A2 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD62B20E4AF7C00F046A2 /* Reachability.swift */; };
+		CEFBD62F20E4AF7D00F046A2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD62C20E4AF7D00F046A2 /* Constant.swift */; };
+		CEFBD63120E4B5F800F046A2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD63020E4B5F800F046A2 /* APIManager.swift */; };
+		CEFBD63C20E4E4E700F046A2 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD63B20E4E4E700F046A2 /* RootVC.swift */; };
+		CEFBD63E20E4E57E00F046A2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD63D20E4E57E00F046A2 /* LoginVC.swift */; };
+		CEFBD64020E4E59E00F046A2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD63F20E4E59E00F046A2 /* HomeVC.swift */; };
+		CEFBD64220E4E5CC00F046A2 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD64120E4E5CC00F046A2 /* SignupVC.swift */; };
+		CEFBD64C20E4E63900F046A2 /* LeftProfileTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFBD64620E4E63700F046A2 /* LeftProfileTopCell.xib */; };
+		CEFBD64D20E4E63900F046A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD64720E4E63700F046A2 /* MainViewController.swift */; };
+		CEFBD64E20E4E63900F046A2 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD64820E4E63800F046A2 /* NavigationController.swift */; };
+		CEFBD64F20E4E63900F046A2 /* LeftProfileTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD64920E4E63800F046A2 /* LeftProfileTopCell.swift */; };
+		CEFBD65020E4E63900F046A2 /* LeftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFBD64A20E4E63800F046A2 /* LeftCell.xib */; };
+		CEFBD65120E4E63900F046A2 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD64B20E4E63800F046A2 /* LeftViewController.swift */; };
+		CEFBD65320E4E66900F046A2 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD65220E4E66900F046A2 /* ForgotPasswordVC.swift */; };
+		CEFBD65520E4E67E00F046A2 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD65420E4E67E00F046A2 /* ChangePasswordVC.swift */; };
+		CEFBD65720E4E69800F046A2 /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBD65620E4E69800F046A2 /* OtpVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEAD8F302109FBC2002A4DD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFBD5E220E4A77300F046A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAD8F232109FBC2002A4DD2;
+			remoteInfo = APNotificationExtention;
+		};
+		CEB97355212AA1CD00F0967C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB97350212AA1CD00F0967C /* CircleProgressBar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 99EBF71321009AB700379645;
+			remoteInfo = CircleProgressBar;
+		};
+		CEB97357212AA1CD00F0967C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB97350212AA1CD00F0967C /* CircleProgressBar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 99EBF71C21009AB700379645;
+			remoteInfo = CircleProgressBarTests;
+		};
+		CED048FD2136655E00E6DC99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED048F82136655E00E6DC99 /* CircleProgressBar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 99EBF71321009AB700379645;
+			remoteInfo = CircleProgressBar;
+		};
+		CED048FF2136655E00E6DC99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED048F82136655E00E6DC99 /* CircleProgressBar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 99EBF71C21009AB700379645;
+			remoteInfo = CircleProgressBarTests;
+		};
+		CED7C2D9212AA313009625A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB97350212AA1CD00F0967C /* CircleProgressBar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 99EBF71221009AB700379645;
+			remoteInfo = CircleProgressBar;
+		};
+		CEFBD5FF20E4A77500F046A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFBD5E220E4A77300F046A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFBD5E920E4A77300F046A2;
+			remoteInfo = DietApp;
+		};
+		CEFBD60A20E4A77500F046A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFBD5E220E4A77300F046A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFBD5E920E4A77300F046A2;
+			remoteInfo = DietApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEAD8F362109FBC2002A4DD2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CEAD8F322109FBC2002A4DD2 /* APNotificationExtention.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB926A20EBAC9000E7F680 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CED7C2D8212AA313009625A3 /* CircleProgressBar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		50857238B50F96B68A2A8B1B /* Pods_DietApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DietApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D640B4C82F287ECE01CB03 /* Pods-DietApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DietApp/Pods-DietApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CE02845620F4C710001569F1 /* SeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		CE02845820F4C74E001569F1 /* CommunicateWithVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicateWithVC.swift; sourceTree = "<group>"; };
+		CE02845920F4C74F001569F1 /* AskQuestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskQuestionVC.swift; sourceTree = "<group>"; };
+		CE02845C20F4C75E001569F1 /* AskQuestionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskQuestionsCell.swift; sourceTree = "<group>"; };
+		CE02845E20F4D1CE001569F1 /* AskQuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskQuestionModel.swift; sourceTree = "<group>"; };
+		CE0E78BD21059DF3009CC2BB /* RecommendedWaterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedWaterVC.swift; sourceTree = "<group>"; };
+		CE0E78BF2105A2E7009CC2BB /* RecommendedWaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedWaterCell.swift; sourceTree = "<group>"; };
+		CEAD8F242109FBC2002A4DD2 /* APNotificationExtention.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = APNotificationExtention.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAD8F252109FBC2002A4DD2 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		CEAD8F272109FBC2002A4DD2 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		CEAD8F2A2109FBC2002A4DD2 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		CEAD8F2D2109FBC2002A4DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		CEAD8F2F2109FBC2002A4DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAD8F37210A0AEB002A4DD2 /* APNotificationExtention.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = APNotificationExtention.entitlements; sourceTree = "<group>"; };
+		CEB97350212AA1CD00F0967C /* CircleProgressBar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CircleProgressBar.xcodeproj; path = "../../../../Users/user/Downloads/CircleProgressBar-master/CircleProgressBar.xcodeproj"; sourceTree = "<group>"; };
+		CED048F82136655E00E6DC99 /* CircleProgressBar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CircleProgressBar.xcodeproj; path = CircleProgressBar/CircleProgressBar.xcodeproj; sourceTree = "<group>"; };
+		CED0490A21366B1600E6DC99 /* ReminderPopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderPopUpVC.swift; sourceTree = "<group>"; };
+		CED0490C21366C2500E6DC99 /* ReminderPopUpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderPopUpCell.swift; sourceTree = "<group>"; };
+		CED0494A2136BC5700E6DC99 /* DottedLineView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DottedLineView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED63E1720F32B150050CFAA /* CaloriesTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesTableVC.swift; sourceTree = "<group>"; };
+		CED63E1920F32C130050CFAA /* CaloriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesCell.swift; sourceTree = "<group>"; };
+		CED63E1B20F32E060050CFAA /* CaloriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesModel.swift; sourceTree = "<group>"; };
+		CED63E1D20F353A30050CFAA /* FatResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatResultVC.swift; sourceTree = "<group>"; };
+		CED7C2DF212ABCC2009625A3 /* JF Flat regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JF Flat regular.ttf"; sourceTree = "<group>"; };
+		CEDB925120EB433300E7F680 /* DietApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DietApp.entitlements; sourceTree = "<group>"; };
+		CEDB925420EB434700E7F680 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		CEDB925620EB4D1F00E7F680 /* WaterRecommendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterRecommendVC.swift; sourceTree = "<group>"; };
+		CEDB925820EB58E200E7F680 /* EncyclopediaListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncyclopediaListVC.swift; sourceTree = "<group>"; };
+		CEDB925A20EB595900E7F680 /* EncyclopediaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncyclopediaCell.swift; sourceTree = "<group>"; };
+		CEDB925C20EB5C8600E7F680 /* FatCalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatCalculatorVC.swift; sourceTree = "<group>"; };
+		CEDB925E20EB7ACE00E7F680 /* CaloriesCounterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesCounterVC.swift; sourceTree = "<group>"; };
+		CEDB926020EB92A200E7F680 /* EncyclopediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncyclopediaModel.swift; sourceTree = "<group>"; };
+		CEDB926220EBAB6300E7F680 /* GaugeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GaugeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB926B20EBAD1800E7F680 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB926D20EBAD1800E7F680 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB926F20EBAD1800E7F680 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB927120EBAD1800E7F680 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB927320EBAD1800E7F680 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB927520EBAD1800E7F680 /* LGSideMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LGSideMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB927720EBAD1800E7F680 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB927920EBAD1800E7F680 /* SDLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB927B20EBAD1800E7F680 /* TTGSnackbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TTGSnackbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE47A132101DBE60041C959 /* TipsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsDetailVC.swift; sourceTree = "<group>"; };
+		CEE47A152101E17C0041C959 /* TipsDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsDetailCell.swift; sourceTree = "<group>"; };
+		CEE50F7A20E7801600EF8252 /* UserDataMedel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataMedel.swift; sourceTree = "<group>"; };
+		CEE752A82100853900CA69CE /* CaloriesCounterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesCounterCell.swift; sourceTree = "<group>"; };
+		CEE87EB420E5FBA700752F12 /* LayoutableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutableButton.swift; sourceTree = "<group>"; };
+		CEE8E5012121640E00F0F9DC /* Localisator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localisator.swift; sourceTree = "<group>"; };
+		CEE8E5092121706D00F0F9DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEE8E50C212171FA00F0F9DC /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		CEE8E50D212171FA00F0F9DC /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CEE8E50E212171FA00F0F9DC /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		CEE8E50F212171FA00F0F9DC /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEF5BBCB20E9F35600368BB3 /* DailyTipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTipsVC.swift; sourceTree = "<group>"; };
+		CEF5BBCD20E9F36E00368BB3 /* DailyTipsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTipsCell.swift; sourceTree = "<group>"; };
+		CEF5BBCF20E9F54200368BB3 /* DailyTipsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTipsModel.swift; sourceTree = "<group>"; };
+		CEF5BBD320EA0A2900368BB3 /* EditAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountVC.swift; sourceTree = "<group>"; };
+		CEFBD5EA20E4A77300F046A2 /* DietApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFBD5ED20E4A77300F046A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFBD5F220E4A77300F046A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFBD5F420E4A77500F046A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFBD5F720E4A77500F046A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFBD5F920E4A77500F046A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFBD5FE20E4A77500F046A2 /* DietAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFBD60220E4A77500F046A2 /* DietAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietAppTests.swift; sourceTree = "<group>"; };
+		CEFBD60420E4A77500F046A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFBD60920E4A77500F046A2 /* DietAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFBD60D20E4A77500F046A2 /* DietAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietAppUITests.swift; sourceTree = "<group>"; };
+		CEFBD60F20E4A77500F046A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFBD62420E4AC1000F046A2 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		CEFBD62620E4AC2500F046A2 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		CEFBD62820E4AF3300F046A2 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		CEFBD62A20E4AF7C00F046A2 /* DSCameraHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSCameraHandler.swift; sourceTree = "<group>"; };
+		CEFBD62B20E4AF7C00F046A2 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		CEFBD62C20E4AF7D00F046A2 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CEFBD63020E4B5F800F046A2 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		CEFBD63B20E4E4E700F046A2 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		CEFBD63D20E4E57E00F046A2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CEFBD63F20E4E59E00F046A2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		CEFBD64120E4E5CC00F046A2 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		CEFBD64620E4E63700F046A2 /* LeftProfileTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftProfileTopCell.xib; sourceTree = "<group>"; };
+		CEFBD64720E4E63700F046A2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CEFBD64820E4E63800F046A2 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		CEFBD64920E4E63800F046A2 /* LeftProfileTopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftProfileTopCell.swift; sourceTree = "<group>"; };
+		CEFBD64A20E4E63800F046A2 /* LeftCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftCell.xib; sourceTree = "<group>"; };
+		CEFBD64B20E4E63800F046A2 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		CEFBD65220E4E66900F046A2 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		CEFBD65420E4E67E00F046A2 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		CEFBD65620E4E69800F046A2 /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
+		E4A7843AA24BE76A4593ABBA /* Pods-DietApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DietApp/Pods-DietApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEAD8F212109FBC2002A4DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAD8F282109FBC2002A4DD2 /* UserNotificationsUI.framework in Frameworks */,
+				CEAD8F262109FBC2002A4DD2 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBD5E720E4A77300F046A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED0494B2136BC5700E6DC99 /* DottedLineView.framework in Frameworks */,
+				CEDB926E20EBAD1800E7F680 /* AlamofireImage.framework in Frameworks */,
+				CEDB927020EBAD1800E7F680 /* AlamofireObjectMapper.framework in Frameworks */,
+				CEDB927220EBAD1800E7F680 /* DropDown.framework in Frameworks */,
+				CEDB927420EBAD1800E7F680 /* IQKeyboardManagerSwift.framework in Frameworks */,
+				CEDB927620EBAD1800E7F680 /* LGSideMenuController.framework in Frameworks */,
+				CEDB927820EBAD1800E7F680 /* ObjectMapper.framework in Frameworks */,
+				CEDB927A20EBAD1800E7F680 /* SDLoader.framework in Frameworks */,
+				CED7C2D7212AA313009625A3 /* CircleProgressBar.framework in Frameworks */,
+				CEDB926C20EBAD1800E7F680 /* Alamofire.framework in Frameworks */,
+				CEDB927C20EBAD1800E7F680 /* TTGSnackbar.framework in Frameworks */,
+				CEDB925520EB434700E7F680 /* HealthKit.framework in Frameworks */,
+				8DD31A34BA55777C4B620EB0 /* Pods_DietApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBD5FB20E4A77500F046A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBD60620E4A77500F046A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082CA7FF788762BA11B2C7E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CED0494A2136BC5700E6DC99 /* DottedLineView.framework */,
+				CEB97350212AA1CD00F0967C /* CircleProgressBar.xcodeproj */,
+				CEDB926B20EBAD1800E7F680 /* Alamofire.framework */,
+				CEDB926D20EBAD1800E7F680 /* AlamofireImage.framework */,
+				CEDB926F20EBAD1800E7F680 /* AlamofireObjectMapper.framework */,
+				CEDB927120EBAD1800E7F680 /* DropDown.framework */,
+				CEDB927320EBAD1800E7F680 /* IQKeyboardManagerSwift.framework */,
+				CEDB927520EBAD1800E7F680 /* LGSideMenuController.framework */,
+				CEDB927720EBAD1800E7F680 /* ObjectMapper.framework */,
+				CEDB927920EBAD1800E7F680 /* SDLoader.framework */,
+				CEDB927B20EBAD1800E7F680 /* TTGSnackbar.framework */,
+				CEDB926220EBAB6300E7F680 /* GaugeKit.framework */,
+				CEDB925420EB434700E7F680 /* HealthKit.framework */,
+				50857238B50F96B68A2A8B1B /* Pods_DietApp.framework */,
+				CEAD8F252109FBC2002A4DD2 /* UserNotifications.framework */,
+				CEAD8F272109FBC2002A4DD2 /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		636983AAAB9AC064E9730048 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66D640B4C82F287ECE01CB03 /* Pods-DietApp.debug.xcconfig */,
+				E4A7843AA24BE76A4593ABBA /* Pods-DietApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEAD8F292109FBC2002A4DD2 /* APNotificationExtention */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD8F37210A0AEB002A4DD2 /* APNotificationExtention.entitlements */,
+				CEAD8F2A2109FBC2002A4DD2 /* NotificationViewController.swift */,
+				CEAD8F2C2109FBC2002A4DD2 /* MainInterface.storyboard */,
+				CEAD8F2F2109FBC2002A4DD2 /* Info.plist */,
+			);
+			path = APNotificationExtention;
+			sourceTree = "<group>";
+		};
+		CEB97351212AA1CD00F0967C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB97356212AA1CD00F0967C /* CircleProgressBar.framework */,
+				CEB97358212AA1CD00F0967C /* CircleProgressBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED048F92136655E00E6DC99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED048FE2136655E00E6DC99 /* CircleProgressBar.framework */,
+				CED049002136655E00E6DC99 /* CircleProgressBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED39C74212A8F8000DEAB57 /* CircleProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CircleProgressBar;
+			sourceTree = "<group>";
+		};
+		CEFBD5E120E4A77300F046A2 = {
+			isa = PBXGroup;
+			children = (
+				CED048F82136655E00E6DC99 /* CircleProgressBar.xcodeproj */,
+				CEFBD5EC20E4A77300F046A2 /* DietApp */,
+				CEFBD60120E4A77500F046A2 /* DietAppTests */,
+				CEFBD60C20E4A77500F046A2 /* DietAppUITests */,
+				CEAD8F292109FBC2002A4DD2 /* APNotificationExtention */,
+				CEFBD5EB20E4A77300F046A2 /* Products */,
+				636983AAAB9AC064E9730048 /* Pods */,
+				082CA7FF788762BA11B2C7E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFBD5EB20E4A77300F046A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBD5EA20E4A77300F046A2 /* DietApp.app */,
+				CEFBD5FE20E4A77500F046A2 /* DietAppTests.xctest */,
+				CEFBD60920E4A77500F046A2 /* DietAppUITests.xctest */,
+				CEAD8F242109FBC2002A4DD2 /* APNotificationExtention.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFBD5EC20E4A77300F046A2 /* DietApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB925120EB433300E7F680 /* DietApp.entitlements */,
+				CEFBD62120E4A83D00F046A2 /* AppDelegate */,
+				CEFBD61B20E4A7B800F046A2 /* AllViewController */,
+				CEFBD61D20E4A7D000F046A2 /* AllCell */,
+				CEFBD61F20E4A7E400F046A2 /* AllModelClass */,
+				CEFBD61E20E4A7DA00F046A2 /* AllUtility */,
+				CEFBD61C20E4A7C700F046A2 /* AllView */,
+				CEFBD62020E4A80900F046A2 /* AllAssets */,
+			);
+			path = DietApp;
+			sourceTree = "<group>";
+		};
+		CEFBD60120E4A77500F046A2 /* DietAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBD60220E4A77500F046A2 /* DietAppTests.swift */,
+				CEFBD60420E4A77500F046A2 /* Info.plist */,
+			);
+			path = DietAppTests;
+			sourceTree = "<group>";
+		};
+		CEFBD60C20E4A77500F046A2 /* DietAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBD60D20E4A77500F046A2 /* DietAppUITests.swift */,
+				CEFBD60F20E4A77500F046A2 /* Info.plist */,
+			);
+			path = DietAppUITests;
+			sourceTree = "<group>";
+		};
+		CEFBD61B20E4A7B800F046A2 /* AllViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBD63A20E4E3C000F046A2 /* Authentication */,
+				CEFBD63F20E4E59E00F046A2 /* HomeVC.swift */,
+				CEF5BBCB20E9F35600368BB3 /* DailyTipsVC.swift */,
+				CEE47A132101DBE60041C959 /* TipsDetailVC.swift */,
+				CEF5BBD320EA0A2900368BB3 /* EditAccountVC.swift */,
+				CEDB925620EB4D1F00E7F680 /* WaterRecommendVC.swift */,
+				CEDB925820EB58E200E7F680 /* EncyclopediaListVC.swift */,
+				CEDB925C20EB5C8600E7F680 /* FatCalculatorVC.swift */,
+				CED63E1D20F353A30050CFAA /* FatResultVC.swift */,
+				CEDB925E20EB7ACE00E7F680 /* CaloriesCounterVC.swift */,
+				CED63E1720F32B150050CFAA /* CaloriesTableVC.swift */,
+				CE02845820F4C74E001569F1 /* CommunicateWithVC.swift */,
+				CE02845920F4C74F001569F1 /* AskQuestionVC.swift */,
+				CE0E78BD21059DF3009CC2BB /* RecommendedWaterVC.swift */,
+				CED0490A21366B1600E6DC99 /* ReminderPopUpVC.swift */,
+			);
+			path = AllViewController;
+			sourceTree = "<group>";
+		};
+		CEFBD61C20E4A7C700F046A2 /* AllView */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBD5F120E4A77300F046A2 /* Main.storyboard */,
+				CEFBD5F620E4A77500F046A2 /* LaunchScreen.storyboard */,
+				CEE8E50A2121706D00F0F9DC /* Localizable.strings */,
+			);
+			path = AllView;
+			sourceTree = "<group>";
+		};
+		CEFBD61D20E4A7D000F046A2 /* AllCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEE47A152101E17C0041C959 /* TipsDetailCell.swift */,
+				CEF5BBCD20E9F36E00368BB3 /* DailyTipsCell.swift */,
+				CEDB925A20EB595900E7F680 /* EncyclopediaCell.swift */,
+				CED63E1920F32C130050CFAA /* CaloriesCell.swift */,
+				CEE752A82100853900CA69CE /* CaloriesCounterCell.swift */,
+				CE02845C20F4C75E001569F1 /* AskQuestionsCell.swift */,
+				CE0E78BF2105A2E7009CC2BB /* RecommendedWaterCell.swift */,
+				CED0490C21366C2500E6DC99 /* ReminderPopUpCell.swift */,
+			);
+			path = AllCell;
+			sourceTree = "<group>";
+		};
+		CEFBD61E20E4A7DA00F046A2 /* AllUtility */ = {
+			isa = PBXGroup;
+			children = (
+				CED39C74212A8F8000DEAB57 /* CircleProgressBar */,
+				CEFBD66020E5134400F046A2 /* Font */,
+				CEFBD64520E4E61300F046A2 /* MenuSlider */,
+				CEFBD63020E4B5F800F046A2 /* APIManager.swift */,
+				CEFBD62C20E4AF7D00F046A2 /* Constant.swift */,
+				CEFBD62B20E4AF7C00F046A2 /* Reachability.swift */,
+				CEFBD62420E4AC1000F046A2 /* Utility.swift */,
+				CEFBD62620E4AC2500F046A2 /* Extentions.swift */,
+				CEFBD62820E4AF3300F046A2 /* UIViewExtensions.swift */,
+				CEFBD62A20E4AF7C00F046A2 /* DSCameraHandler.swift */,
+				CEE87EB420E5FBA700752F12 /* LayoutableButton.swift */,
+				CE02845620F4C710001569F1 /* SeparatorView.swift */,
+				CEE8E5012121640E00F0F9DC /* Localisator.swift */,
+			);
+			path = AllUtility;
+			sourceTree = "<group>";
+		};
+		CEFBD61F20E4A7E400F046A2 /* AllModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				CEE50F7A20E7801600EF8252 /* UserDataMedel.swift */,
+				CEF5BBCF20E9F54200368BB3 /* DailyTipsModel.swift */,
+				CEDB926020EB92A200E7F680 /* EncyclopediaModel.swift */,
+				CED63E1B20F32E060050CFAA /* CaloriesModel.swift */,
+				CE02845E20F4D1CE001569F1 /* AskQuestionModel.swift */,
+			);
+			path = AllModelClass;
+			sourceTree = "<group>";
+		};
+		CEFBD62020E4A80900F046A2 /* AllAssets */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBD5F420E4A77500F046A2 /* Assets.xcassets */,
+			);
+			path = AllAssets;
+			sourceTree = "<group>";
+		};
+		CEFBD62120E4A83D00F046A2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBD5ED20E4A77300F046A2 /* AppDelegate.swift */,
+				CEFBD5F920E4A77500F046A2 /* Info.plist */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CEFBD63A20E4E3C000F046A2 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBD63B20E4E4E700F046A2 /* RootVC.swift */,
+				CEFBD63D20E4E57E00F046A2 /* LoginVC.swift */,
+				CEFBD64120E4E5CC00F046A2 /* SignupVC.swift */,
+				CEFBD65220E4E66900F046A2 /* ForgotPasswordVC.swift */,
+				CEFBD65420E4E67E00F046A2 /* ChangePasswordVC.swift */,
+				CEFBD65620E4E69800F046A2 /* OtpVC.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CEFBD64520E4E61300F046A2 /* MenuSlider */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBD64A20E4E63800F046A2 /* LeftCell.xib */,
+				CEFBD64920E4E63800F046A2 /* LeftProfileTopCell.swift */,
+				CEFBD64620E4E63700F046A2 /* LeftProfileTopCell.xib */,
+				CEFBD64B20E4E63800F046A2 /* LeftViewController.swift */,
+				CEFBD64720E4E63700F046A2 /* MainViewController.swift */,
+				CEFBD64820E4E63800F046A2 /* NavigationController.swift */,
+			);
+			path = MenuSlider;
+			sourceTree = "<group>";
+		};
+		CEFBD66020E5134400F046A2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CED7C2DF212ABCC2009625A3 /* JF Flat regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEAD8F232109FBC2002A4DD2 /* APNotificationExtention */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAD8F352109FBC2002A4DD2 /* Build configuration list for PBXNativeTarget "APNotificationExtention" */;
+			buildPhases = (
+				CEAD8F202109FBC2002A4DD2 /* Sources */,
+				CEAD8F212109FBC2002A4DD2 /* Frameworks */,
+				CEAD8F222109FBC2002A4DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APNotificationExtention;
+			productName = APNotificationExtention;
+			productReference = CEAD8F242109FBC2002A4DD2 /* APNotificationExtention.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CEFBD5E920E4A77300F046A2 /* DietApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFBD61220E4A77500F046A2 /* Build configuration list for PBXNativeTarget "DietApp" */;
+			buildPhases = (
+				9386566232285CB9C8E21BA1 /* [CP] Check Pods Manifest.lock */,
+				CEFBD5E620E4A77300F046A2 /* Sources */,
+				CEFBD5E720E4A77300F046A2 /* Frameworks */,
+				CEFBD5E820E4A77300F046A2 /* Resources */,
+				DE14F2B3DAD3E0021EDBB6F4 /* [CP] Embed Pods Frameworks */,
+				CEDB926A20EBAC9000E7F680 /* Embed Frameworks */,
+				CEAD8F362109FBC2002A4DD2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAD8F312109FBC2002A4DD2 /* PBXTargetDependency */,
+				CED7C2DA212AA313009625A3 /* PBXTargetDependency */,
+			);
+			name = DietApp;
+			productName = DietApp;
+			productReference = CEFBD5EA20E4A77300F046A2 /* DietApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFBD5FD20E4A77500F046A2 /* DietAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFBD61520E4A77500F046A2 /* Build configuration list for PBXNativeTarget "DietAppTests" */;
+			buildPhases = (
+				CEFBD5FA20E4A77500F046A2 /* Sources */,
+				CEFBD5FB20E4A77500F046A2 /* Frameworks */,
+				CEFBD5FC20E4A77500F046A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFBD60020E4A77500F046A2 /* PBXTargetDependency */,
+			);
+			name = DietAppTests;
+			productName = DietAppTests;
+			productReference = CEFBD5FE20E4A77500F046A2 /* DietAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFBD60820E4A77500F046A2 /* DietAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFBD61820E4A77500F046A2 /* Build configuration list for PBXNativeTarget "DietAppUITests" */;
+			buildPhases = (
+				CEFBD60520E4A77500F046A2 /* Sources */,
+				CEFBD60620E4A77500F046A2 /* Frameworks */,
+				CEFBD60720E4A77500F046A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFBD60B20E4A77500F046A2 /* PBXTargetDependency */,
+			);
+			name = DietAppUITests;
+			productName = DietAppUITests;
+			productReference = CEFBD60920E4A77500F046A2 /* DietAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFBD5E220E4A77300F046A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Amit Patel";
+				TargetAttributes = {
+					CEAD8F232109FBC2002A4DD2 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					CEFBD5E920E4A77300F046A2 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+						};
+					};
+					CEFBD5FD20E4A77500F046A2 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CEFBD5E920E4A77300F046A2;
+					};
+					CEFBD60820E4A77500F046A2 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CEFBD5E920E4A77300F046A2;
+					};
+				};
+			};
+			buildConfigurationList = CEFBD5E520E4A77300F046A2 /* Build configuration list for PBXProject "DietApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = CEFBD5E120E4A77300F046A2;
+			productRefGroup = CEFBD5EB20E4A77300F046A2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CEB97351212AA1CD00F0967C /* Products */;
+					ProjectRef = CEB97350212AA1CD00F0967C /* CircleProgressBar.xcodeproj */;
+				},
+				{
+					ProductGroup = CED048F92136655E00E6DC99 /* Products */;
+					ProjectRef = CED048F82136655E00E6DC99 /* CircleProgressBar.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CEFBD5E920E4A77300F046A2 /* DietApp */,
+				CEFBD5FD20E4A77500F046A2 /* DietAppTests */,
+				CEFBD60820E4A77500F046A2 /* DietAppUITests */,
+				CEAD8F232109FBC2002A4DD2 /* APNotificationExtention */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CEB97356212AA1CD00F0967C /* CircleProgressBar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CircleProgressBar.framework;
+			remoteRef = CEB97355212AA1CD00F0967C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEB97358212AA1CD00F0967C /* CircleProgressBarTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CircleProgressBarTests.xctest;
+			remoteRef = CEB97357212AA1CD00F0967C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CED048FE2136655E00E6DC99 /* CircleProgressBar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CircleProgressBar.framework;
+			remoteRef = CED048FD2136655E00E6DC99 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CED049002136655E00E6DC99 /* CircleProgressBarTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CircleProgressBarTests.xctest;
+			remoteRef = CED048FF2136655E00E6DC99 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEAD8F222109FBC2002A4DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAD8F2E2109FBC2002A4DD2 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBD5E820E4A77300F046A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED7C2E0212ABCC2009625A3 /* JF Flat regular.ttf in Resources */,
+				CEFBD65020E4E63900F046A2 /* LeftCell.xib in Resources */,
+				CEE8E5082121706D00F0F9DC /* Localizable.strings in Resources */,
+				CEFBD5F820E4A77500F046A2 /* LaunchScreen.storyboard in Resources */,
+				CEFBD5F520E4A77500F046A2 /* Assets.xcassets in Resources */,
+				CEFBD64C20E4E63900F046A2 /* LeftProfileTopCell.xib in Resources */,
+				CEFBD5F320E4A77300F046A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBD5FC20E4A77500F046A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBD60720E4A77500F046A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9386566232285CB9C8E21BA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DietApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE14F2B3DAD3E0021EDBB6F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DietApp/Pods-DietApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/DottedLineView/DottedLineView.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/LGSideMenuController/LGSideMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDLoader/SDLoader.framework",
+				"${BUILT_PRODUCTS_DIR}/TTGSnackbar/TTGSnackbar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DottedLineView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGSideMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDLoader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTGSnackbar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DietApp/Pods-DietApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEAD8F202109FBC2002A4DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAD8F2B2109FBC2002A4DD2 /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBD5E620E4A77300F046A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF5BBCE20E9F36E00368BB3 /* DailyTipsCell.swift in Sources */,
+				CE0E78C02105A2E7009CC2BB /* RecommendedWaterCell.swift in Sources */,
+				CE02845F20F4D1CE001569F1 /* AskQuestionModel.swift in Sources */,
+				CEFBD63C20E4E4E700F046A2 /* RootVC.swift in Sources */,
+				CE02845720F4C710001569F1 /* SeparatorView.swift in Sources */,
+				CEF5BBD420EA0A2900368BB3 /* EditAccountVC.swift in Sources */,
+				CED0490B21366B1600E6DC99 /* ReminderPopUpVC.swift in Sources */,
+				CEFBD64020E4E59E00F046A2 /* HomeVC.swift in Sources */,
+				CEFBD62E20E4AF7D00F046A2 /* Reachability.swift in Sources */,
+				CEFBD62720E4AC2500F046A2 /* Extentions.swift in Sources */,
+				CEE8E5022121640E00F0F9DC /* Localisator.swift in Sources */,
+				CEFBD62920E4AF3300F046A2 /* UIViewExtensions.swift in Sources */,
+				CE02845D20F4C75E001569F1 /* AskQuestionsCell.swift in Sources */,
+				CEFBD63120E4B5F800F046A2 /* APIManager.swift in Sources */,
+				CEFBD65520E4E67E00F046A2 /* ChangePasswordVC.swift in Sources */,
+				CEFBD65320E4E66900F046A2 /* ForgotPasswordVC.swift in Sources */,
+				CEFBD62F20E4AF7D00F046A2 /* Constant.swift in Sources */,
+				CEF5BBD020E9F54200368BB3 /* DailyTipsModel.swift in Sources */,
+				CED63E1C20F32E060050CFAA /* CaloriesModel.swift in Sources */,
+				CEFBD64220E4E5CC00F046A2 /* SignupVC.swift in Sources */,
+				CEDB925D20EB5C8600E7F680 /* FatCalculatorVC.swift in Sources */,
+				CEDB926120EB92A200E7F680 /* EncyclopediaModel.swift in Sources */,
+				CEE87EB520E5FBA700752F12 /* LayoutableButton.swift in Sources */,
+				CE0E78BE21059DF3009CC2BB /* RecommendedWaterVC.swift in Sources */,
+				CEE50F7B20E7801600EF8252 /* UserDataMedel.swift in Sources */,
+				CE02845B20F4C74F001569F1 /* AskQuestionVC.swift in Sources */,
+				CEDB925B20EB595900E7F680 /* EncyclopediaCell.swift in Sources */,
+				CEFBD64E20E4E63900F046A2 /* NavigationController.swift in Sources */,
+				CEFBD64D20E4E63900F046A2 /* MainViewController.swift in Sources */,
+				CEDB925F20EB7ACE00E7F680 /* CaloriesCounterVC.swift in Sources */,
+				CEFBD62D20E4AF7D00F046A2 /* DSCameraHandler.swift in Sources */,
+				CE02845A20F4C74F001569F1 /* CommunicateWithVC.swift in Sources */,
+				CEF5BBCC20E9F35600368BB3 /* DailyTipsVC.swift in Sources */,
+				CEDB925920EB58E200E7F680 /* EncyclopediaListVC.swift in Sources */,
+				CED63E1E20F353A30050CFAA /* FatResultVC.swift in Sources */,
+				CEFBD5EE20E4A77300F046A2 /* AppDelegate.swift in Sources */,
+				CED63E1820F32B150050CFAA /* CaloriesTableVC.swift in Sources */,
+				CEE47A142101DBE60041C959 /* TipsDetailVC.swift in Sources */,
+				CEE752A92100853900CA69CE /* CaloriesCounterCell.swift in Sources */,
+				CED63E1A20F32C130050CFAA /* CaloriesCell.swift in Sources */,
+				CEFBD65720E4E69800F046A2 /* OtpVC.swift in Sources */,
+				CED0490D21366C2500E6DC99 /* ReminderPopUpCell.swift in Sources */,
+				CEFBD62520E4AC1000F046A2 /* Utility.swift in Sources */,
+				CEFBD64F20E4E63900F046A2 /* LeftProfileTopCell.swift in Sources */,
+				CEFBD65120E4E63900F046A2 /* LeftViewController.swift in Sources */,
+				CEFBD63E20E4E57E00F046A2 /* LoginVC.swift in Sources */,
+				CEDB925720EB4D1F00E7F680 /* WaterRecommendVC.swift in Sources */,
+				CEE47A162101E17C0041C959 /* TipsDetailCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBD5FA20E4A77500F046A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFBD60320E4A77500F046A2 /* DietAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBD60520E4A77500F046A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFBD60E20E4A77500F046A2 /* DietAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEAD8F312109FBC2002A4DD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAD8F232109FBC2002A4DD2 /* APNotificationExtention */;
+			targetProxy = CEAD8F302109FBC2002A4DD2 /* PBXContainerItemProxy */;
+		};
+		CED7C2DA212AA313009625A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgressBar;
+			targetProxy = CED7C2D9212AA313009625A3 /* PBXContainerItemProxy */;
+		};
+		CEFBD60020E4A77500F046A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFBD5E920E4A77300F046A2 /* DietApp */;
+			targetProxy = CEFBD5FF20E4A77500F046A2 /* PBXContainerItemProxy */;
+		};
+		CEFBD60B20E4A77500F046A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFBD5E920E4A77300F046A2 /* DietApp */;
+			targetProxy = CEFBD60A20E4A77500F046A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEAD8F2C2109FBC2002A4DD2 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAD8F2D2109FBC2002A4DD2 /* Base */,
+				CEE8E50E212171FA00F0F9DC /* ar */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE8E50A2121706D00F0F9DC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8E5092121706D00F0F9DC /* en */,
+				CEE8E50F212171FA00F0F9DC /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CEFBD5F120E4A77300F046A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFBD5F220E4A77300F046A2 /* Base */,
+				CEE8E50C212171FA00F0F9DC /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFBD5F620E4A77500F046A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFBD5F720E4A77500F046A2 /* Base */,
+				CEE8E50D212171FA00F0F9DC /* ar */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEAD8F332109FBC2002A4DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = APNotificationExtention/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap.ypsilon.DietApp.APNotificationExtention;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEAD8F342109FBC2002A4DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = APNotificationExtention/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap.ypsilon.DietApp.APNotificationExtention;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEFBD61020E4A77500F046A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFBD61120E4A77500F046A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFBD61320E4A77500F046A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D640B4C82F287ECE01CB03 /* Pods-DietApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = DietApp/DietApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = "$(SRCROOT)/DietApp/AppDelegate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap.ypsilon.DietApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CEFBD61420E4A77500F046A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A7843AA24BE76A4593ABBA /* Pods-DietApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = DietApp/DietApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = "$(SRCROOT)/DietApp/AppDelegate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap.ypsilon.DietApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CEFBD61620E4A77500F046A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = DietAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap.ypsilon.DietAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietApp.app/DietApp";
+			};
+			name = Debug;
+		};
+		CEFBD61720E4A77500F046A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = DietAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap.ypsilon.DietAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietApp.app/DietApp";
+			};
+			name = Release;
+		};
+		CEFBD61920E4A77500F046A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = DietAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap.ypsilon.DietAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DietApp;
+			};
+			name = Debug;
+		};
+		CEFBD61A20E4A77500F046A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = DietAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap.ypsilon.DietAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DietApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEAD8F352109FBC2002A4DD2 /* Build configuration list for PBXNativeTarget "APNotificationExtention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAD8F332109FBC2002A4DD2 /* Debug */,
+				CEAD8F342109FBC2002A4DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFBD5E520E4A77300F046A2 /* Build configuration list for PBXProject "DietApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFBD61020E4A77500F046A2 /* Debug */,
+				CEFBD61120E4A77500F046A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFBD61220E4A77500F046A2 /* Build configuration list for PBXNativeTarget "DietApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFBD61320E4A77500F046A2 /* Debug */,
+				CEFBD61420E4A77500F046A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFBD61520E4A77500F046A2 /* Build configuration list for PBXNativeTarget "DietAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFBD61620E4A77500F046A2 /* Debug */,
+				CEFBD61720E4A77500F046A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFBD61820E4A77500F046A2 /* Build configuration list for PBXNativeTarget "DietAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFBD61920E4A77500F046A2 /* Debug */,
+				CEFBD61A20E4A77500F046A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFBD5E220E4A77300F046A2 /* Project object */;
+}

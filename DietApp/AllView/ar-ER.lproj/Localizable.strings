@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  DietApp
+
+  Created by user on 13/08/18.
+  Copyright © 2018 Amit Patel. All rights reserved.
+*/
+"OK" = "حسنا";
+"CANCEL" = "إلغاء";
+
+"LATEST_NEWS" = "أحدث الأخبار";
+"USEFUL_VIDEO" = "فيديو مفيد";

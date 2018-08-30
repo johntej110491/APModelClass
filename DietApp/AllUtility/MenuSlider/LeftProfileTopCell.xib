@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular_2.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="189" id="KGk-i7-Jjw" customClass="LeftProfileTopCell" customModule="APShopify" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="179.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xyz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESh-fC-HpE">
+                        <rect key="frame" x="8" y="145" width="304" height="22"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="1fO-i5-XYh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="673-g6-tgW">
+                        <rect key="frame" x="0.0" y="178.5" width="320" height="1"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.61634063784060911" green="0.088420458484107331" blue="0.13464693332994124" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SXv-3b-FVO">
+                        <rect key="frame" x="104" y="16" width="113" height="113"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logologin" translatesAutoresizingMaskIntoConstraints="NO" id="phV-2a-mcQ">
+                                <rect key="frame" x="0.0" y="0.0" width="113" height="113"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RqM-3G-KMD">
+                                <rect key="frame" x="0.0" y="0.0" width="113" height="113"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="phV-2a-mcQ" firstAttribute="top" secondItem="SXv-3b-FVO" secondAttribute="top" id="5Ay-JJ-vGj"/>
+                            <constraint firstAttribute="height" constant="113" id="5WK-14-v1u"/>
+                            <constraint firstAttribute="bottom" secondItem="RqM-3G-KMD" secondAttribute="bottom" id="J1J-UO-6Fy"/>
+                            <constraint firstItem="RqM-3G-KMD" firstAttribute="top" secondItem="SXv-3b-FVO" secondAttribute="top" id="MI5-Mh-Icz"/>
+                            <constraint firstAttribute="trailing" secondItem="phV-2a-mcQ" secondAttribute="trailing" id="R9F-hb-Rm2"/>
+                            <constraint firstItem="phV-2a-mcQ" firstAttribute="leading" secondItem="SXv-3b-FVO" secondAttribute="leading" id="S6n-0q-CoA"/>
+                            <constraint firstAttribute="bottom" secondItem="phV-2a-mcQ" secondAttribute="bottom" id="h6q-Gh-MXK"/>
+                            <constraint firstItem="RqM-3G-KMD" firstAttribute="leading" secondItem="SXv-3b-FVO" secondAttribute="leading" id="jLZ-RV-9cG"/>
+                            <constraint firstAttribute="width" constant="113" id="jNe-d2-3rQ"/>
+                            <constraint firstAttribute="trailing" secondItem="RqM-3G-KMD" secondAttribute="trailing" id="rfU-XX-pzZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ESh-fC-HpE" secondAttribute="trailing" constant="8" id="Bww-zJ-TCK"/>
+                    <constraint firstItem="ESh-fC-HpE" firstAttribute="top" secondItem="SXv-3b-FVO" secondAttribute="bottom" constant="16" id="oAJ-QC-llZ"/>
+                    <constraint firstItem="SXv-3b-FVO" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="qPm-wa-p89"/>
+                    <constraint firstItem="SXv-3b-FVO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="qp3-b6-gn9"/>
+                    <constraint firstItem="ESh-fC-HpE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="x8Y-P8-cQo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnProfile" destination="RqM-3G-KMD" id="kxE-Tz-HKh"/>
+                <outlet property="imgProfile" destination="phV-2a-mcQ" id="0dB-99-LJ3"/>
+                <outlet property="lblUserName" destination="ESh-fC-HpE" id="JSM-Dm-bPy"/>
+                <outlet property="viewProfile" destination="SXv-3b-FVO" id="GcS-NG-mqs"/>
+            </connections>
+            <point key="canvasLocation" x="55" y="144.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="logologin" width="113" height="113"/>
+    </resources>
+</document>

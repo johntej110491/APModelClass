@@ -1,0 +1,119 @@
+/* 
+  Localizable.strings
+  DietApp
+
+  Created by user on 13/08/18.
+  Copyright © 2018 Amit Patel. All rights reserved.
+*/
+
+
+"EMAIL" = "Email";
+"PASSWORD" = "Password";
+"WELCOME" = "Welcome";
+"LOGIN" = "Login";
+"FORGOT_PASS" = "Forgot Password?";
+"VERSION" = "version 1.0";
+"SIGNUP" = "Don't have an account? Register";
+
+
+"STEPS_COUNTER_VC" = "Steps Counter";
+"CAL_MSG" = "Calories";
+"DISTANCE_MSG" = "Distance";
+"GLASSES_MSG" = "Glasses";
+"STEPS_MSG" = "Steps";
+
+
+"DASHBOARD" = "Dashboard";
+"RECOMMEN_WATER" = "Recommended Water";
+"STESP_COUNTER" = "Steps Counter";
+"FOOD_CALORIES" = "Foods Calories";
+"BODY_FAT" = "Body Fat";
+"EXPERT_ADVICE" = "Expert Advice";
+"ENCY_PEDIA" = "Encyclopedia of Herbs";
+"DAILY_TIPS" = "Daily Tips";
+"WHATSAPP_GROUP" = "WhatsApp Group";
+"SOCIAL_MEDIA" = "Social Media";
+
+"YES" = "YES";
+"CANCEL" = "Cancel";
+"NO" = "NO";
+"LOGOUT" = "Logout!";
+"LOGOUT_MSG" = "Are you sure you want to logout?";
+
+
+
+"MY_ACCOUNT" = "My Account";
+"MALE" = " Male";
+"FEMALE" = " Female";
+"GENDER" = "Gender";
+"FNAME" = "Full Name";
+"WEIGHT" = "Weight";
+"LENGTH" = "Length";
+"B_TYPE" = "Blood Types";
+"AGE" = "Age";
+"HEALTH_STATUS" = "Health Status";
+"UPDATE" = "Update";
+"PASSWORD" = "Password";
+"CONF_PASSWORD" = "Confirm Password";
+"REGISTER" = "Register";
+"ALREADY_LOGIN" = "Already have an account? Login";
+
+"LANGUAGE_MSG" = "select language";
+"ENGLISH" = "English";
+"AREBIC" = "العربية";
+
+"DAILY_TIPS" = "Daily Tips";
+"READ_MORE" = "Read more";
+
+"EXPERT_ADVICE" = "Expert Advice";
+"EXPERT_MSG" = "You can ask three Questions in a month";
+"ASK_QUES" = "Ask Questions";
+"CALL_TO_EXPERT" = "Call to expert";
+
+"REMAINING_MSG" = "You remaining quetion is";
+"QUESTIONS" = "Questions";
+"ASK_SOMETHING" = "Ask Something";
+
+"CALORIES_TABLE" = "Calories Table";
+"PROTEIN" = "Protein";
+"CARBOHY" = "Carbohydrates";
+"QUANTITY" = "Quantity";
+"FATS" = "Fats";
+"FIBER" = "Fiber";
+
+"FAT_CALCULATOR" = "Fat Calculator";
+"CARBOHY" = "Carbohydrates";
+"QUANTITY" = "Quantity";
+"FATS" = "Fats";
+"FIBER" = "Fiber";
+
+"CALCULATE" = "Calculate";
+"FAT_CALCULATE" = "Fat Calculator";
+"NECK" = "Neck";
+"MID_SIZE" = "Middle Sizes";
+"ASS_SIZE" = "Ass Sizes";
+
+
+//Female bodyFat
+"WRIST_MESURMENT" = "Wrist measurement (at fullest point)";
+"WAIST_MESURMENT" = "Waist measurement (at naval)";
+"HIP_MESURMENT" = "Hip measurement (at fullest point)";
+"FOREARN_MESURMENT" = "Forearn measurement (at fullest point)";
+
+
+"RECOMMENDED_WATER" = "Recommended Water";
+"REMIND_ME" = "Remind me";
+"REMIND_MSG" = "Recommended Water";
+"REMIND_MSG1" = "US Cup";
+
+"FORGOT_PASSWORD_MSG" = "We will send you on email to reset your password";
+"SUBMIT" = "Submit >";
+
+
+"OTP_MSG" = "Please enter the code receive on your registered email";
+"RESEND" = "Resend";
+"OTP_VC" = "OTP Verification";
+
+"MSG" = "Remind me every";
+ 
+

@@ -1,0 +1,107 @@
+/* 
+  Localizable.strings
+  DietApp
+  Created by user on 13/08/18.
+  Copyright © 2018 Amit Patel. All rights reserved.
+*/
+
+"EMAIL" = "البريد الإلكتروني";
+"PASSWORD" = "كلمه السر";
+"WELCOME" = "أهلا بك";
+"LOGIN" = "تسجيل الدخول";
+"FORGOT_PASS" = "هل نسيت كلمة المرور؟";
+"VERSION" = "الإصدار 1.0";
+"VERSION" = "الإصدار 1.0";
+"SIGNUP" = "ليس لديك حساب؟ تسجيل";
+
+"STEPS_COUNTER_VC" = "عداد الخطوات";
+"CAL_MSG" = "سعرات حراريه";
+"DISTANCE_MSG" = "مسافه: بعد";
+"GLASSES_MSG" = "نظارات";
+"STEPS_MSG" = "خطوات";
+
+"DASHBOARD" = "لوحة القيادة";
+"RECOMMEN_WATER" = "الماء الموصى به";
+"STESP_COUNTER" = "عداد الخطوات";
+"FOOD_CALORIES" = "الأطعمة السعرات الحرارية";
+"BODY_FAT" = "دهون الجسم";
+"EXPERT_ADVICE" = "نصيحة إختصاصية";
+"ENCY_PEDIA" = "موسوعة الأعشاب";
+"DAILY_TIPS" = "نصائح يومية";
+"WHATSAPP_GROUP" = "مجموعة واتس اب";
+"SOCIAL_MEDIA" = "وسائل الاعلام الاجتماعية";
+
+"YES" = "نعم فعلا";
+"CANCEL" = "إلغاء";
+"NO" = "لا";
+"LOGOUT" = "الخروج!";
+"LOGOUT_MSG" = "هل أنت متأكد أنك تريد تسجيل الخروج؟";
+
+"MY_ACCOUNT" = "حسابي";
+"MALE" = "الذكر";
+"FEMALE" = "إناثا";
+"GENDER" = "جنس";
+"FNAME" = "الاسم الكامل";
+"WEIGHT" = "وزن";
+"LENGTH" = "الطول";
+"B_TYPE" = "فصائل الدم";
+"AGE" = "عمر";
+"HEALTH_STATUS" = "الحالة الصحية";
+"UPDATE" = "تحديث";
+"PASSWORD" = "كلمه السر";
+"CONF_PASSWORD" = "تأكيد كلمة المرور";
+"REGISTER" = "تسجيل";
+"ALREADY_LOGIN" = "هل لديك حساب؟ تسجيل الدخول";
+
+"LANGUAGE_MSG" = "االحالة الصحية";
+"LANGUAGE" = "لغة";
+"ENGLISH" = "English";
+"AREBIC" = "العربية";
+
+"DAILY_TIPS" = "نصائح يومية";
+"READ_MORE" = "اقرأ أكثر";
+
+"EXPERT_ADVICE" = "نصيحة إختصاصية";
+"EXPERT_MSG" = "يمكنك طرح ثلاثة أسئلة في شهر واحد";
+"ASK_QUES" = "اسال اسئلة";
+"CALL_TO_EXPERT" = "دعوة للخبير";
+
+"REMAINING_MSG" = "أنت بقي السؤال هو";
+"QUESTIONS" = "الأسئلة";
+"ASK_SOMETHING" = "اسأل شيئا";
+
+"CALORIES_TABLE" = "اسأل شيئا";
+"PROTEIN" = "بروتين";
+"CARBOHY" = "الكربوهيدرات";
+"QUANTITY" = "كمية";
+"FATS" = "الدهون";
+"FIBER" = "الأساسية";
+
+"CALCULATE" = "حساب";
+"FAT_CALCULATE" = "حاسبة الدهون";
+"NECK" = "العنق";
+"MID_SIZE" = "مقاسات متوسطة";
+"ASS_SIZE" = "أحجام الحمار";
+
+//Female bodyFat
+"WRIST_MESURMENT" = "قياس المعصم (في أقصى نقطة)";
+"WAIST_MESURMENT" = "قياس الخصر (في البحرية)";
+"HIP_MESURMENT" = "قياس الورك (على أكمل وجه)";
+"FOREARN_MESURMENT" = "قياس الساعد (في أقصى نقطة)";
+
+"RECOMMENDED_WATER" = "الماء الموصى به";
+"REMIND_ME" = "ذكرني";
+"REMIND_MSG" = "ذكرني";
+"REMIND_MSG1" = "كأس الولايات المتحدة";
+
+
+"FORGOT_PASSWORD_MSG" = "سوف نرسل لك على البريد الإلكتروني لإعادة تعيين كلمة المرور الخاصة بك";
+"SUBMIT" = "إرسال>";
+
+"OTP_MSG" = "يرجى إدخال الرمز في بريدك الإلكتروني المسجل";
+"RESEND" = "إعادة إرسال";
+"OTP_VC" = "التحقق من مكتب المدعي العام";
+
+"MSG" = "ذكرني كل";
+
+ 

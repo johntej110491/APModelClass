@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "5xo-lm-TFB"; */
+"5xo-lm-TFB.normalTitle" = "Yes";
+
+/* Class = "UILabel"; text = "Hello World"; ObjectID = "GcN-lo-r42"; */
+"GcN-lo-r42.text" = "Hello World";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "PoQ-rv-5JX"; */
+"PoQ-rv-5JX.normalTitle" = "Cancel";

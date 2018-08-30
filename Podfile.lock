@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - DottedLineView (1.0.0)
+  - DropDown (2.3.2)
+  - IQKeyboardManagerSwift (6.0.3)
+  - LGSideMenuController (2.1.1)
+  - ObjectMapper (3.1.0)
+  - SDLoader (0.2.0)
+  - TTGSnackbar (1.7.3)
+
+DEPENDENCIES:
+  - AlamofireImage (~> 3.3)
+  - AlamofireObjectMapper
+  - DottedLineView
+  - DropDown
+  - IQKeyboardManagerSwift
+  - LGSideMenuController
+  - SDLoader
+  - TTGSnackbar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireObjectMapper
+    - DottedLineView
+    - DropDown
+    - IQKeyboardManagerSwift
+    - LGSideMenuController
+    - ObjectMapper
+    - SDLoader
+    - TTGSnackbar
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  DottedLineView: 750c5aee6eae69f9bc9acd3bc6ee9938e35856bb
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  IQKeyboardManagerSwift: 04e8679f85e496bb2c474eeb9284052f1b3c391c
+  LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  SDLoader: e35b571db413a4a98b6f58469b16dc095289c9f6
+  TTGSnackbar: a66e929fd17d662152ec0964990a86e966310edb
+
+PODFILE CHECKSUM: ffcfb2c089030367189521fcdb84bf3a15336c60
+
+COCOAPODS: 1.5.2
